@@ -11,8 +11,6 @@ def matrix_multiply(A, B):
     return "Incompatible matrices"
   else:
     result = [[ 0 for _ in range(len(B[0]))] for _ in range(len(A))]
-    for _ in result:
-      print(_)
     for i in range(len(A)):
       for j in range(len(B[0])):
         sum = 0
